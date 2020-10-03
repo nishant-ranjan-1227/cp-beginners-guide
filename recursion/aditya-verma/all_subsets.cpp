@@ -27,12 +27,24 @@ using namespace std;
 
 
 
-/*  input - abc
+/* 
+Ques - to store all the unique subsets of a string in a set.
+
+We use the recursion input output method. The base case is when the input becomes empty. 
+Each time we take the decision if we want to add the first character of the input string to the output string or not.
+Not
+ input - abc
 	
-	output - 
+	output - 	" "
+				a
+				ab
+				abc
+				ac
+				b
+				bc
+				c
 
-
- */
+*/
 
 set<string> subsets;
 

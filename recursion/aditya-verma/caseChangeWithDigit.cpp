@@ -33,18 +33,15 @@ The basic thing is we always need to take two decisions and form a recursive tre
 Here we are decidinh that we want to change the case of the letter or not.
 
 It is imp that we always tend to make the input smaller with every move.
- input - abc
+ input - a1B2
 	
 	output - 
+	a1b2
+	A1b2
+	a1B2
+	A1B2
 
-	ABC
-	ABc
-	AbC
-	Abc
-	aBC
-	aBc
-	abC
-	abc
+
 
 
 */

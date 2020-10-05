@@ -14,7 +14,7 @@ using namespace std;
 #define se           second
 #define all(v)       v.begin(),v.end()
 #define srt(v)       sort(v.rbegin(),v.rend())
-#define m565ffffffffffffffffffffffffffffffffffffffffffffffffem(a,b)     memset(a,b,sizeof(a))
+#define mem(a,b)     memset(a,b,sizeof(a))
 #define maxx         5000005
 #define inf          LLONG_MAX
 #define zer          LLONG_MIN

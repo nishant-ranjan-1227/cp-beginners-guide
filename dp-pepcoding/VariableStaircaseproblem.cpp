@@ -27,6 +27,7 @@ using namespace std;
 ll zero =0;
 
 
+
 int solve()
 {
 	ll n;
@@ -35,12 +36,11 @@ int solve()
 
 	vec v(n+1,0);
 
-	v[0]=0;
+	v[0]=1;
 	rep(i,0,n){
 		ll steps = a[i];
 		rep(j,i+1,min(n+1,i+steps+1)){
-			v[j]++;
-		}
+			v[j] += v[i];		}
 	}
 
 	cout<<v[n];

@@ -24,34 +24,7 @@ using namespace std;
 #define write(a,n)   rep(i,0,n) {cout<<a[i]<<" ";}
 #define All          rep(i,0,n) 
 /*  
-    Partition into subsets.
-
-    ex. =  partion 5 numbers in 3 subsets -> fun(5,3)
-
-    case1 -> If we know how to partition 4 num in 2 sunsets. We can just leave 5 as single element
-                in a new subset. So we will have 5 eleemnts and 3 subsets.
-            So, n1 = fun(4,2)
-
-    Case2 -> Ways to partion 4 into 3 subsets
-                12 3 4 -> 125 3 4 , 12 35 4 , 12 3 45
-
-                1 23 4 -> 15 23 4 , 1 235 4 , 1 23 45
-
-                1 2 34 -> ...
-
-                13 2 4
-
-                14 2 3
-
-                24 1 3
-
-                We have 6 ways to partition 4 into 3 and for every way we can keep 5 in 3 ways.
-            So, n2 = fun(4,3)*3
-
-
-
-
-
+  
  */
 
 

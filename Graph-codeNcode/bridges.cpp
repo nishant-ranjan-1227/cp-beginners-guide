@@ -57,7 +57,7 @@ void dfs(ll node,ll parent)
 			dfs(child,node);
 
 			//step2. check for bridge
-			if(low[child] > low[node])
+			if(low[child] > in[node])
 			{
 				cout << "edge " << node << " - " << child << " is a bridge"<< endl; 
 			}
